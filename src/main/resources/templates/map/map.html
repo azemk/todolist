@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <script src="mapcore.js"></script>
+</head>
+<body>
+<div class="map">
+    <div class="map-container">
+        <div id="mapsvg"></div>
+        <script type="text/javascript">
+            jQuery(document).ready(function(){
+                jQuery("#mapsvg").mapSvg({width: 792.38214,height: 389.39474,colors: {baseDefault: "#000000",background: "#f3f3f3",selected: 40,hover: 20,directory: "#fafafa",status: {},stroke: "#fff"},regions: {'KG-B': {id: "KG-B",'id_no_spaces': "KG-B",title: "Batken",fill: "rgba(23,65,149,1)",tooltip: "Баткенская область",href: "/map-rasdoh/oblast?code=41705000000000",data: {}},'KG-C': {id: "KG-C",'id_no_spaces': "KG-C",title: "Chü",fill: "rgba(21,60,139,1)",tooltip: "Чуйская область",href: "/map-rasdoh/oblast?code=41708000000000",data: {}},'KG-J': {id: "KG-J",'id_no_spaces': "KG-J",title: "Jalal-Abad",fill: "rgba(21,59,134,1)",tooltip: "Джалал-Абадская область",href: "/map-rasdoh/oblast?code=41703000000000",data: {}},'KG-N': {id: "KG-N",'id_no_spaces': "KG-N",title: "Naryn",fill: "rgba(46,88,161,1)",tooltip: "Нарынская область",href: "/map-rasdoh/oblast?code=41704000000000",data: {}},'KG-O': {id: "KG-O",'id_no_spaces': "KG-O",title: "Osh",fill: "rgba(25,70,161,1)",tooltip: "Ошская область",href: "/map-rasdoh/oblast?code=41706000000000",data: {}},'KG-T': {id: "KG-T",'id_no_spaces': "KG-T",title: "Talas",fill: "rgba(19,53,122,1)",tooltip: "Таласская область",href: "/map-rasdoh/oblast?code=41707000000000",data: {}},'KG-Y': {id: "KG-Y",'id_no_spaces': "KG-Y",title: "Ysyk-Köl",fill: "rgba(23,65,149,1)",tooltip: "Иссык-Кульская область",href: "/map-rasdoh/oblast?code=41702000000000",data: {}}},viewBox: [0,0,792.38214,389.39474],gauge: {on: false,labels: {low: "low",high: "high"},colors: {lowRGB: {r: 85,g: 0,b: 0,a: 1},highRGB: {r: 238,g: 0,b: 0,a: 1},low: "#550000",high: "#ee0000",diffRGB: {r: 153,g: 0,b: 0,a: 0}},min: 0,max: false},source: "kyrgyzstan.svg", title: "Kyrgyzstan",responsive: true});
+            });
+        </script>
+    </div>
+
+</div>
+
+</body>
+</html>
